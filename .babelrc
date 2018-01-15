@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "es2015"
+  ],
+  "plugins": [
+    [
+      "component",
+      {
+        "name": "vux-ui"
+      }
+    ]
+  ]
+}

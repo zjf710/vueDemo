@@ -1,0 +1,13 @@
+[
+  {
+    "name": "email",
+    "label": "邮箱",
+    "value": "zeus@bigsec.com",
+    "regex": "mail",
+    "placeholder": "请输入邮箱",
+    "type": "text",
+    "min": 7,
+    "max": 50,
+    "readOnly": false
+  }
+]

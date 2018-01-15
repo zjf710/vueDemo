@@ -1,0 +1,77 @@
+{
+  "menu": [
+    {
+      "name": "configs",
+      "iconName": "setting",
+      "title": "配置管理",
+      "componentList": [
+        {
+          "component": "DefaultForm",
+          "title": "登录",
+          "url": "example/default_form",
+          "formItems": [
+            {
+              "name": "username",
+              "label": "用户名",
+              "regex": "mail",
+              "placeholder": "请输入用户名",
+              "type": "text"
+            },
+            {
+              "name": "password",
+              "label": "密码",
+              "placeholder": "请输入密码",
+              "type": "password"
+            }
+          ]
+        },
+        {
+          "component": "DefaultForm",
+          "title": "登录",
+          "url": "example/default_form",
+          "formItems": [
+            {
+              "name": "username",
+              "label": "用户名",
+              "placeholder": "请输入用户名",
+              "type": "text"
+            },
+            {
+              "name": "password",
+              "label": "密码",
+              "placeholder": "请输入密码",
+              "type": "password"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "form",
+      "iconName": "copy1",
+      "title": "表格管理",
+      "componentList": [
+        {
+          "component": "DefaultForm",
+          "title": "登录",
+          "url": "example/default_form",
+          "formItems": [
+            {
+              "name": "username",
+              "label": "用户名",
+              "regex": "mail",
+              "placeholder": "请输入用户名",
+              "type": "text"
+            },
+            {
+              "name": "password",
+              "label": "密码",
+              "placeholder": "请输入密码",
+              "type": "password"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
